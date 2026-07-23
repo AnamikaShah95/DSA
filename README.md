@@ -50,7 +50,7 @@
 
 | ID | Problem | Topic | Difficulty | Solution | Key Concept |
 | :-: | :--- | :--- | :-: | :-: | :--- |
-| 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/TwoSum2_Sorted.cpp) | Opposite-end pointers to achieve $O(n)$ time |
+| 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/TwoSum2_Sorted.cpp) | Two pointers converging from opposite ends |
 
 ---
 
