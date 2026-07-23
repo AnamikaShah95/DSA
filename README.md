@@ -16,7 +16,6 @@
 - [🎯 Journey Goals](#-journey-goals)
 - [🗺️ Topic Roadmap](#️-topic-roadmap)
 - [📊 Problem Tracker](#-problem-tracker)
-- [🧠 Key Takeaways & Cheat Sheet](#-key-takeaways--cheat-sheet)
 
 ---
 
@@ -55,17 +54,6 @@
 
 ---
 
-## 🧠 Key Takeaways & Cheat Sheet
-
-### 💡 Pattern: Two Pointers
-* **When to use:** When dealing with sorted arrays/strings and searching for pairs, triplets, or sub-segments.
-* **Core Logic:**
-  * `sum == target`: Match found! Return result.
-  * `sum < target`: Move left pointer rightward (`left++`) to increase the value.
-  * `sum > target`: Move right pointer leftward (`right--`) to decrease the value.
-* **Complexity Advantage:** Reduces a brute-force $O(n^2)$ nested loop down to $O(n)$ time complexity using $O(1)$ auxiliary space.
-
----
 
 <div align="center">
 
