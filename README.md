@@ -52,6 +52,7 @@
 | :-: | :--- | :--- | :-: | :-: | :--- |
 | 0167 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/TwoSum2_Sorted.cpp) | Opposite-end pointers |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two Pointers | 🟢 Easy | [C++](./Two-Pointers/RemoveDuplicatesFromSortedArray.cpp) | Slow & fast two pointers |
+| 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/RemoveDuplicatesFromSortedArray2.cpp) | Two pointers comparing with `i - 2` |
 
 ---
 
