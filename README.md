@@ -56,6 +56,7 @@
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Two Pointers | 🟢 Easy | [C++](./Two-Pointers/SquaresOfASortedArray.cpp) | Two pointers, filling result from end |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ThreeSum.cpp) | Sort + fixed element with two pointers |
 | 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ThreeSumClosest.cpp) | Sort + track minimum absolute difference |
+| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/SortColors.cpp) | Dutch National Flag algorithm (3 pointers) |
 
 ---
 
