@@ -57,6 +57,7 @@
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ThreeSum.cpp) | Sort + fixed element with two pointers |
 | 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ThreeSumClosest.cpp) | Sort + track minimum absolute difference |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/SortColors.cpp) | Dutch National Flag algorithm (3 pointers) |
+| GFG | [Count Triplets with Sum Smaller than X](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/CountTripletsWithSumSmallerThanX.cpp) | Two pointers, add `(k - j)` combinations |
 
 ---
 
