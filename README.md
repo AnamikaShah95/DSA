@@ -21,10 +21,10 @@
 
 ## 🎯 Journey Goals
 - [x] Set up topic-based repository structure
+- [x] Master **Two Pointers** pattern (7 problems solved!)
 - [ ] Solve **100+** core interview problems
-- [ ] Master fundamental patterns (Two Pointers, Sliding Window, Fast/Slow Pointers, etc.)
+- [ ] Master fundamental patterns (Sliding Window, Fast & Slow Pointers, Prefix Sum, etc.)
 - [ ] Maintain consistent daily streak & progress updates
-
 ---
 
 ## 🗺️ Topic Roadmap
@@ -34,10 +34,10 @@
 
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
-| **Two Pointers** | 🟡 In Progress | 1 | Opposite direction, Same direction, Fast/Slow |
+| **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
+| **Sliding Window** | 🟡 Up Next | 0 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
-| **Sliding Window** | ⚪ Not Started | 0 | Fixed size, Dynamic size |
-| **Strings** | ⚪ Not Started | 0 | String manipulation, Pattern matching |
+| **Fast & Slow Pointers** | ⚪ Not Started | 0 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
 </details>
