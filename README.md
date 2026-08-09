@@ -35,7 +35,7 @@
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
-| **Sliding Window** | 🟡 Up Next | 0 | Fixed window, Dynamic window |
+| **Sliding Window** | 🟡 In Progress | 1 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | ⚪ Not Started | 0 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
@@ -58,6 +58,7 @@
 | 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ThreeSumClosest.cpp) | Sort + track minimum absolute difference |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/SortColors.cpp) | Dutch National Flag algorithm (3 pointers) |
 | GFG | [Count Triplets with Sum Smaller than X](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/CountTripletsWithSumSmallerThanX.cpp) | Two pointers, add `(k - j)` combinations |
+| GFG | [Max Sum Subarray of Size K](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Sliding Window | 🟢 Easy | [C++](./Sliding-Window/MaxSumSubarraySizeK.cpp) | Fixed window: add incoming, subtract outgoing |
 
 ---
 
