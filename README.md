@@ -62,6 +62,7 @@
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/MinimumSizeSubarraySum.cpp) | Variable window: expand right, shrink left |
 | GFG | [Longest Substring with K Unique Characters](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/LongestKSubstr.cpp) | Variable window + hash map frequency count |
 | 0904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/FruitIntoBaskets.cpp) | Variable window: at most 2 distinct elements |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/LongestSubstringWithoutRepeatingCharacters.cpp) | Variable window: shrink when `f.size() < len`
 
 ---
 
