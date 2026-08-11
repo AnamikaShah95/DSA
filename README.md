@@ -60,6 +60,8 @@
 | GFG | [Count Triplets with Sum Smaller than X](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/CountTripletsWithSumSmallerThanX.cpp) | Two pointers, add `(k - j)` combinations |
 | GFG | [Max Sum Subarray of Size K](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Sliding Window | 🟢 Easy | [C++](./Sliding-Window/MaxSumSubarraySizeK.cpp) | Fixed window: add incoming, subtract outgoing |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/MinimumSizeSubarraySum.cpp) | Variable window: expand right, shrink left |
+| GFG | [Longest Substring with K Unique Characters](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/LongestKSubstr.cpp) | Variable window + hash map frequency count |
+| 0904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/FruitIntoBaskets.cpp) | Variable window: at most 2 distinct elements |
 
 ---
 
