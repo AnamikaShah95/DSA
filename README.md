@@ -35,7 +35,7 @@
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
-| **Sliding Window** | 🟡 In Progress | 1 | Fixed window, Dynamic window |
+| **Sliding Window** | 🟡 In Progress | 7 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | ⚪ Not Started | 0 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
@@ -64,6 +64,7 @@
 | 0904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/FruitIntoBaskets.cpp) | Variable window: at most 2 distinct elements |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/LongestSubstringWithoutRepeatingCharacters.cpp) | Variable window: shrink when `f.size() < len`
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/CharacterReplacement.cpp) | Variable window: `window_len - max_freq <= k` |
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Sliding Window | 🔴 Hard | [C++](./Sliding-Window/MinimumWindowSubstring.cpp) | Variable window: expand until valid, shrink left to minimize |
 
 ---
 
