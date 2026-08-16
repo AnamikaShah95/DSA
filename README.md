@@ -37,7 +37,7 @@
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟡 In Progress | 7 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
-| **Fast & Slow Pointers** | 🟡 In Progress | 1 | Cycle detection (Floyd's algorithm) |
+| **Fast & Slow Pointers** | 🟡 In Progress | 2 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
 </details>
@@ -66,6 +66,7 @@
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/CharacterReplacement.cpp) | Variable window: `window_len - max_freq <= k` |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Sliding Window | 🔴 Hard | [C++](./Sliding-Window/MinimumWindowSubstring.cpp) | Variable window: expand until valid, shrink left to minimize |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/LinkedListCycle.cpp) | Floyd's cycle detection algorithm |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/MiddleOfTheLinkedList.cpp) | Slow moves 1 step, fast moves 2 steps |
 
 ---
 
