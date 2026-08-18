@@ -37,7 +37,7 @@
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟡 In Progress | 7 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
-| **Fast & Slow Pointers** | 🟡 In Progress | 4 | Cycle detection (Floyd's algorithm) |
+| **Fast & Slow Pointers** | 🟡 In Progress | 5 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
 </details>
@@ -69,6 +69,7 @@
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/MiddleOfTheLinkedList.cpp) | Slow moves 1 step, fast moves 2 steps |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/LinkedListCycle2.cpp) | Reset `slow` to `head`, move both 1 step to find cycle entry |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/FindTheDuplicateNumber.cpp) | Treat array as linked list, Floyd's cycle detection |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/HappyNumber.cpp) | Detect implicit sequence cycle via digit square sums |
 
 ---
 
