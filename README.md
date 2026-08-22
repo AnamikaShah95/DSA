@@ -36,7 +36,7 @@
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
-| **Arrays & Hashing** | 🟡 In Progress | 2 | Prefix Sum, Frequency Maps |
+| **Arrays & Hashing** | 🟡 In Progress | 3 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 5 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
@@ -73,6 +73,7 @@
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/MaxConsecutiveOnes3.cpp) | Variable window: allow at most `k` zeros in current window |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumSubarray.cpp) | Kadane's Algorithm: `max(nums[i], bestending + nums[i])` |
 | GFG | [Smallest Sum Contiguous Subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | Arrays & Hashing | 🟢 Easy | [C++](./Arrays-Hashing/SmallestSubarraySum.cpp) | Modified Kadane's Algorithm: `min(nums[i], bestending + nums[i])` |
+| 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumProductSubarray.cpp) | Modified Kadane's: track both `minending` and `maxending` |
 
 ---
 
