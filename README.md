@@ -74,6 +74,7 @@
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumSubarray.cpp) | Kadane's Algorithm: `max(nums[i], bestending + nums[i])` |
 | GFG | [Smallest Sum Contiguous Subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | Arrays & Hashing | 🟢 Easy | [C++](./Arrays-Hashing/SmallestSubarraySum.cpp) | Modified Kadane's Algorithm: `min(nums[i], bestending + nums[i])` |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumProductSubarray.cpp) | Modified Kadane's: track both `minending` and `maxending` |
+| 1749 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaxAbsoluteSumSubarray.cpp) | Simultaneous Max & Min Kadane's: `max(|max_sum|, |min_sum|)` |
 
 ---
 
