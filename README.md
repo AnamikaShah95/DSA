@@ -36,8 +36,8 @@
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
-| **Arrays & Hashing** | ⚪ Not Started | 0 | Prefix Sum, Frequency Maps |
-| **Fast & Slow Pointers** | 🟡 In Progress | 5 | Cycle detection (Floyd's algorithm) |
+| **Arrays & Hashing** | 🟡 In Progress | 1 | Prefix Sum, Frequency Maps |
+| **Fast & Slow Pointers** | 🟢 Completed  | 5 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
 </details>
@@ -71,6 +71,7 @@
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/FindTheDuplicateNumber.cpp) | Treat array as linked list, Floyd's cycle detection |
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/HappyNumber.cpp) | Detect implicit sequence cycle via digit square sums |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/MaxConsecutiveOnes3.cpp) | Variable window: allow at most `k` zeros in current window |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumSubarray.cpp) | Kadane's Algorithm: `max(nums[i], bestending + nums[i])` |
 
 ---
 

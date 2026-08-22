@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Lenovo/OneDrive/Desktop/DSA/Two-Pointers",
-      "program": "c:/Users/Lenovo/OneDrive/Desktop/DSA/Two-Pointers/build/Debug/outDebug",
+      "cwd": "c:/Users/Lenovo/OneDrive/Desktop/DSA/Arrays_Hashing",
+      "program": "c:/Users/Lenovo/OneDrive/Desktop/DSA/Arrays_Hashing/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
