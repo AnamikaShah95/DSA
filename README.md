@@ -36,7 +36,7 @@
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
-| **Arrays & Hashing** | 🟡 In Progress | 3 | Prefix Sum, Frequency Maps |
+| **Arrays & Hashing** | 🟡 In Progress | 5 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 5 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 
@@ -75,6 +75,7 @@
 | GFG | [Smallest Sum Contiguous Subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | Arrays & Hashing | 🟢 Easy | [C++](./Arrays-Hashing/SmallestSubarraySum.cpp) | Modified Kadane's Algorithm: `min(nums[i], bestending + nums[i])` |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumProductSubarray.cpp) | Modified Kadane's: track both `minending` and `maxending` |
 | 1749 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaxAbsoluteSumSubarray.cpp) | Simultaneous Max & Min Kadane's: `max(|max_sum|, |min_sum|)` |
+| 1186 | [Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumSumWithOneDeletion.cpp) | State-based Kadane's: track `noDel` vs `oneDel` states |
 
 ---
 
