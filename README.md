@@ -36,9 +36,10 @@
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
-| **Arrays & Hashing** | 🟡 In Progress | 6 | Prefix Sum, Frequency Maps |
+| **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
+| **Prefix Sum** | 🟡 In Progress | 1 | Subarray range sums, Running balance pattern |
 
 </details>
 
@@ -78,6 +79,7 @@
 | 1186 | [Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaximumSumWithOneDeletion.cpp) | State-based Kadane's: track `noDel` vs `oneDel` states |
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | Arrays & Hashing | 🟡 Medium | [C++](./Arrays-Hashing/MaxSubarraySumCircular.cpp) | Circular Kadane: `max(maxKadane, totalSum - minKadane)` |
 | 0457 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/CircularArrayLoop.cpp) | Cycle detection on implicit graph + zero-marking for $O(N)$ |
+| 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | 🟢 Easy | [C++](./Prefix-Sum/FindPivotIndex.cpp) | Derive `rightSum = totalSum - leftSum - nums[i]` in $O(1)$ space |
 
 ---
 
