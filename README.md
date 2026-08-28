@@ -39,7 +39,7 @@
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
-| **Prefix Sum** | 🟡 In Progress | 2 | Subarray range sums, Running balance pattern |
+| **Prefix Sum** | 🟡 In Progress | 3 | Subarray range sums, Running balance pattern |
 
 </details>
 
@@ -81,6 +81,7 @@
 | 0457 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/CircularArrayLoop.cpp) | Cycle detection on implicit graph + zero-marking for $O(N)$ |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | 🟢 Easy | [C++](./Prefix-Sum/FindPivotIndex.cpp) | Derive `rightSum = totalSum - leftSum - nums[i]` in $O(1)$ space |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraySumEqualsK.cpp) | Prefix Sum + Hash Map frequency counting |
+| 0974 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraysDivByK.cpp) | Prefix Sum modulo frequency array with non-negative remainder normalization |
 
 ---
 
