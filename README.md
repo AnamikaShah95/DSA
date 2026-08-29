@@ -39,7 +39,7 @@
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
-| **Prefix Sum** | 🟡 In Progress | 3 | Subarray range sums, Running balance pattern |
+| **Prefix Sum** | 🟡 In Progress | 4 | Subarray range sums, Running balance pattern |
 
 </details>
 
@@ -82,6 +82,7 @@
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | 🟢 Easy | [C++](./Prefix-Sum/FindPivotIndex.cpp) | Derive `rightSum = totalSum - leftSum - nums[i]` in $O(1)$ space |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraySumEqualsK.cpp) | Prefix Sum + Hash Map frequency counting |
 | 0974 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraysDivByK.cpp) | Prefix Sum modulo frequency array with non-negative remainder normalization |
+| 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/ContiguousArray.cpp) | Treat 0 as -1; store first occurrence of running sum for max length |
 
 ---
 
