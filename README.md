@@ -34,7 +34,7 @@
 
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
-| **Two Pointers** | 🟢 Completed | 7 | Opposite direction, Same direction, Dutch National Flag, Triplets |
+| **Two Pointers** | 🟢 Completed | 9 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
@@ -83,6 +83,8 @@
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraySumEqualsK.cpp) | Prefix Sum + Hash Map frequency counting |
 | 0974 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/SubarraysDivByK.cpp) | Prefix Sum modulo frequency array with non-negative remainder normalization |
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/ContiguousArray.cpp) | Treat 0 as -1; store first occurrence of running sum for max length |
+| 0018 | [4Sum](https://leetcode.com/problems/4sum/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/4Sum.cpp) | Sort + nested loops with two-pointer inner scan + `long long` overflow check |
+| 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Two Pointers | 🟢 Easy | [C++](./Two-Pointers/BackspaceStringCompare.cpp) | Backward two-pointer traversal with dynamic backspace skip counters |
 
 ---
 
