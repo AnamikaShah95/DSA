@@ -34,7 +34,7 @@
 
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
-| **Two Pointers** | 🟢 Completed | 9 | Opposite direction, Same direction, Dutch National Flag, Triplets |
+| **Two Pointers** | 🟢 Completed | 10 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
@@ -85,7 +85,7 @@
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Prefix Sum | 🟡 Medium | [C++](./Prefix-Sum/ContiguousArray.cpp) | Treat 0 as -1; store first occurrence of running sum for max length |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/4Sum.cpp) | Sort + nested loops with two-pointer inner scan + `long long` overflow check |
 | 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Two Pointers | 🟢 Easy | [C++](./Two-Pointers/BackspaceStringCompare.cpp) | Backward two-pointer traversal with dynamic backspace skip counters |
-
+| 0581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ShortestUnsortedSubarray.cpp) | Simultaneous dual-direction scan tracking max/min bounds |
 ---
 
 
