@@ -37,7 +37,7 @@
 | **Two Pointers** | 🟢 Completed | 10 | Opposite direction, Same direction, Dutch National Flag, Triplets |
 | **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
-| **Fast & Slow Pointers** | 🟢 Completed  | 6 | Cycle detection (Floyd's algorithm) |
+| **Fast & Slow Pointers** | 🟢 Completed  | 7 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 | **Prefix Sum** | 🟡 In Progress | 4 | Subarray range sums, Running balance pattern |
 
@@ -86,6 +86,7 @@
 | 0018 | [4Sum](https://leetcode.com/problems/4sum/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/4Sum.cpp) | Sort + nested loops with two-pointer inner scan + `long long` overflow check |
 | 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Two Pointers | 🟢 Easy | [C++](./Two-Pointers/BackspaceStringCompare.cpp) | Backward two-pointer traversal with dynamic backspace skip counters |
 | 0581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ShortestUnsortedSubarray.cpp) | Simultaneous dual-direction scan tracking max/min bounds |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/PalindromeLinkedList.cpp) | Midpoint discovery via fast/slow pointers + in-place reversal |
 ---
 
 
