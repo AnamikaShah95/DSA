@@ -35,7 +35,7 @@
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 10 | Opposite direction, Same direction, Dutch National Flag, Triplets |
-| **Sliding Window** | 🟢 Completed | 8 | Fixed window, Dynamic window |
+| **Sliding Window** | 🟢 Completed | 9 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
@@ -88,6 +88,7 @@
 | 0581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | Two Pointers | 🟡 Medium | [C++](./Two-Pointers/ShortestUnsortedSubarray.cpp) | Simultaneous dual-direction scan tracking max/min bounds |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Fast & Slow Pointers | 🟢 Easy | [C++](./Fast-Slow-Pointers/PalindromeLinkedList.cpp) | Midpoint discovery via fast/slow pointers + in-place reversal |
 | 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/ReorderList.cpp) | Find middle + reverse second half + interleave merge |
+| 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/PermutationInString.cpp) | Fixed-size sliding window with 26-char vector equality comparisons |
 ---
 
 
