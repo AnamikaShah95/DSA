@@ -35,7 +35,7 @@
 | Topic | Status | Problems Solved | Key Concepts |
 | :--- | :---: | :---: | :--- |
 | **Two Pointers** | 🟢 Completed | 10 | Opposite direction, Same direction, Dutch National Flag, Triplets |
-| **Sliding Window** | 🟢 Completed | 10 | Fixed window, Dynamic window |
+| **Sliding Window** | 🟢 Completed | 11 | Fixed window, Dynamic window |
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
@@ -90,6 +90,7 @@
 | 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Fast & Slow Pointers | 🟡 Medium | [C++](./Fast-Slow-Pointers/ReorderList.cpp) | Find middle + reverse second half + interleave merge |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/PermutationInString.cpp) | Fixed-size sliding window with 26-char vector equality comparisons |
 | 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/FindAllAnagrams.cpp) | Fixed-size sliding window with frequency array comparison |
+| 0030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Sliding Window | 🔴 Hard | [C++](./Sliding-Window/SubstringWithConcatenationOfAllWords.cpp) | Multi-offset sliding window shifted by `wordLen` with word frequency map |
 ---
 
 
