@@ -39,7 +39,7 @@
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
-| **Prefix Sum** | 🟡 In Progress | 4 | Subarray range sums, Running balance pattern |
+| **Prefix Sum** | 🟡 In Progress | 5 | Subarray range sums, Running balance pattern |
 
 </details>
 
@@ -91,6 +91,7 @@
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/PermutationInString.cpp) | Fixed-size sliding window with 26-char vector equality comparisons |
 | 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Sliding Window | 🟡 Medium | [C++](./Sliding-Window/FindAllAnagrams.cpp) | Fixed-size sliding window with frequency array comparison |
 | 0030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Sliding Window | 🔴 Hard | [C++](./Sliding-Window/SubstringWithConcatenationOfAllWords.cpp) | Multi-offset sliding window shifted by `wordLen` with word frequency map |
+| 0862 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | Prefix Sum | 🔴 Hard | [C++](./Sliding-Window/ShortestSubarrayWithSumAtLeastK.cpp) | Prefix sums with monotonic increasing deque handling negative numbers |
 ---
 
 
