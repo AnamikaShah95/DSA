@@ -40,6 +40,7 @@
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
+| **Intervals** | 🟡 In Progress | 1 | Sorting by start/end times, Overlap detection, Interval merging |
 
 </details>
 
@@ -93,6 +94,7 @@
 | 0030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Sliding Window | 🔴 Hard | [C++](./Sliding-Window/SubstringWithConcatenationOfAllWords.cpp) | Multi-offset sliding window shifted by `wordLen` with word frequency map |
 | 0862 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | Prefix Sum | 🔴 Hard | [C++](./Sliding-Window/ShortestSubarrayWithSumAtLeastK.cpp) | Prefix sums with monotonic increasing deque handling negative numbers |
 | 0327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Prefix Sum | 🔴 Hard | [C++](./Prefix-Sum/CountOfRangeSum.cpp) | Modified Merge Sort on Prefix Sums with two-pointer range counting |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Intervals | 🟡 Medium | [C++](./Intervals/MergeIntervals.cpp) | Sort by start time and iteratively merge overlapping intervals |
 ---
 
 
