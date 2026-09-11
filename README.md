@@ -40,7 +40,7 @@
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
-| **Intervals** | 🟡 In Progress | 2 | Sorting by start/end times, Overlap detection, Interval merging |
+| **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
 
 </details>
 
@@ -96,6 +96,7 @@
 | 0327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Prefix Sum | 🔴 Hard | [C++](./Prefix-Sum/CountOfRangeSum.cpp) | Modified Merge Sort on Prefix Sums with two-pointer range counting |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Intervals | 🟡 Medium | [C++](./Intervals/MergeIntervals.cpp) | Sort by start time and iteratively merge overlapping intervals |
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Intervals | 🟡 Medium | [C++](./Intervals/InsertInterval.cpp) | 3-phase linear scan: pre-overlap, merge overlap, post-overlap |
+| 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Intervals | 🟡 Medium | [C++](./Intervals/IntervalListIntersections.cpp) | Two-pointer simultaneous scan comparing max(start) and min(end) |
 ---
 
 
