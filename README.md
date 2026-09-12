@@ -41,6 +41,7 @@
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
+| **Linked List** | 🟡 In Progress | 1 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 
 </details>
 
@@ -97,6 +98,7 @@
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Intervals | 🟡 Medium | [C++](./Intervals/MergeIntervals.cpp) | Sort by start time and iteratively merge overlapping intervals |
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Intervals | 🟡 Medium | [C++](./Intervals/InsertInterval.cpp) | 3-phase linear scan: pre-overlap, merge overlap, post-overlap |
 | 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Intervals | 🟡 Medium | [C++](./Intervals/IntervalListIntersections.cpp) | Two-pointer simultaneous scan comparing max(start) and min(end) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Linked List | 🟢 Easy | [C++](./Linked-List/ReverseLinkedList.cpp) | Three-pointer iterative pointer reversal in O(1) space |
 ---
 
 
