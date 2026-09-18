@@ -41,7 +41,8 @@
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
-| **Linked List** | 🟡 In Progress | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
+| **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
+| **Stack** | 🟡 In Progress | 1 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 
 </details>
 
@@ -104,6 +105,7 @@
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Linked List | 🔴 Hard | [C++](./Linked-List/ReverseNodesInKGroup.cpp) | Helper function scan + sub-segment in-place group reversal in O(1) space || 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Linked List | 🔴 Hard | [C++](./Linked-List/ReverseNodesInKGroup.cpp) | Helper function scan + sub-segment in-place group reversal in O(1) space |
 | 2074 | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) | Linked List | 🟡 Medium | [C++](./Linked-List/ReverseNodesInEvenLengthGroups.cpp) | Dynamic group-size scanning with conditional even-length sublist reversal |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Linked List | 🟡 Medium | [C++](./Linked-List/RotateList.cpp) | Circular ring formation with dynamic ring break at length - k |
+| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Stack | 🟢 Easy | [C++](./Stack/RemoveAllAdjacentDuplicatesInString.cpp) | String-based stack approach for adjacent character matching |
 ---
 
 
