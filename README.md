@@ -42,7 +42,7 @@
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
-| **Stack** | 🟡 In Progress | 1 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
+| **Stack** | 🟡 In Progress | 2 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 
 </details>
 
@@ -106,8 +106,9 @@
 | 2074 | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) | Linked List | 🟡 Medium | [C++](./Linked-List/ReverseNodesInEvenLengthGroups.cpp) | Dynamic group-size scanning with conditional even-length sublist reversal |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Linked List | 🟡 Medium | [C++](./Linked-List/RotateList.cpp) | Circular ring formation with dynamic ring break at length - k |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Stack | 🟢 Easy | [C++](./Stack/RemoveAllAdjacentDuplicatesInString.cpp) | String-based stack approach for adjacent character matching |
----
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | 🟢 Easy | [C++](./Stack/ValidParentheses.cpp) | Stack matching technique pushing expected closing symbols |
 
+---
 
 <div align="center">
 
