@@ -42,7 +42,7 @@
 | **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
-| **Stack** | 🟡 In Progress | 5 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
+| **Stack** | 🟡 In Progress | 6 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 
 </details>
 
@@ -110,9 +110,10 @@
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Stack | 🟡 Medium | [C++](./Stack/NextGreaterElementII.cpp) | Monotonic stack with $2N$ virtual iteration for circular array traversal |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack | 🟡 Medium | [C++](./Stack/DailyTemperatures.cpp) | Monotonic decreasing stack tracking indices to calculate distance to next warmer day |
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Stack | 🟡 Medium | [C++](./Stack/RemoveNodesFromLinkedList.cpp) | Monotonic decreasing vector-stack for inline node removal and pointer re-linking |
+| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Stack | 🟡 Medium | [C++](./Stack/RemoveAllAdjacentDuplicatesInStringII.cpp) | Pair-based count stack for tracking and popping $k$-consecutive duplicates |
+
 
 ---
-
 <div align="center">
 
 ⭐ **"Consistency is what transforms average into excellence."** ⭐  
