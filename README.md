@@ -43,7 +43,7 @@
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 | **Stack** | 🟡 In Progress | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
-| **Hash Table** | 🟡 In Progress | 2 | Fixed-size frequency arrays, String character counts, Hash map lookups |
+| **Hash Table** | 🟡 In Progress | 3 | Fixed-size frequency arrays, String character counts, Hash map lookups |
 
 </details>
 
@@ -116,6 +116,7 @@
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | Stack | 🟡 Medium | [C++](./Stack/RemoveKDigits.cpp) | Monotonic increasing string stack with greedy digit removal and leading zero handling |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/FirstUniqueCharacterInAString.cpp) | Two-pass character frequency array lookup table |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/MaximumNumberOfBalloons.cpp) | Character frequency counting with minimum constraint evaluation |
+| 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/LongestPalindrome.cpp) | Greedy character frequency grouping for symmetric pair accumulation |
 
 
 ---
