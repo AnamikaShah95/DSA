@@ -39,11 +39,12 @@
 | **Arrays & Hashing** | 🟢 Completed | 6 | Prefix Sum, Frequency Maps |
 | **Fast & Slow Pointers** | 🟢 Completed  | 8 | Cycle detection (Floyd's algorithm) |
 | **Recursion & Backtracking** | ⚪ Not Started | 0 | Subsets, Permutations |
-| **Prefix Sum** | 🟡 In Progress | 6 | Subarray range sums, Running balance pattern |
+| **Prefix Sum** | 🟢 Completed  | 6 | Subarray range sums, Running balance pattern |
 | **Intervals** | 🟡 In Progress | 3 | Sorting by start/end times, Overlap detection, Interval merging |
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
-| **Stack** | 🟡 In Progress | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
-| **Hash Table** | 🟡 In Progress | 3 | Fixed-size frequency arrays, String character counts, Hash map lookups |
+| **Stack** | 🟢 Completed  | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
+| **Hash Table** | 🟡 In Progress | 4 | Fixed-size frequency arrays, String character counts, Hash map lookups |
+| **Binary Search** | 🟡 In Progress | 1 | Basic array search, Boundary search, Search space reduction |
 
 </details>
 
@@ -117,6 +118,7 @@
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/FirstUniqueCharacterInAString.cpp) | Two-pass character frequency array lookup table |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/MaximumNumberOfBalloons.cpp) | Character frequency counting with minimum constraint evaluation |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/LongestPalindrome.cpp) | Greedy character frequency grouping for symmetric pair accumulation |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | 🟢 Easy | [C++](./Binary-Search/BinarySearch.cpp) | Iterative binary search with overflow-safe midpoint calculation |
 
 
 ---
