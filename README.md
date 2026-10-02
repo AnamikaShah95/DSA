@@ -44,7 +44,7 @@
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 | **Stack** | 🟢 Completed  | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 | **Hash Table** | 🟡 In Progress | 4 | Fixed-size frequency arrays, String character counts, Hash map lookups |
-| **Binary Search** | 🟡 In Progress | 3 | Basic array search, Boundary search, Search space reduction |
+| **Binary Search** | 🟡 In Progress | 4 | Basic array search, Boundary search, Search space reduction |
 
 </details>
 
@@ -120,6 +120,7 @@
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Hash Table | 🟢 Easy | [C++](./Hash-Table/LongestPalindrome.cpp) | Greedy character frequency grouping for symmetric pair accumulation |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | 🟢 Easy | [C++](./Binary-Search/BinarySearch.cpp) | Iterative binary search with overflow-safe midpoint calculation |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/FindFirstAndLastPositionOfElementInSortedArray.cpp) | Dual binary search with boolean direction flag for boundary finding |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/PeakIndexInMountainArray.cpp) | Slope-comparison binary search for finding peak in unimodal array |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/PeakIndexInMountainArray.cpp) | Slope-comparison binary search for finding peak in unimodal array |
 
 
