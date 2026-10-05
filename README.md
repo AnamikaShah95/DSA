@@ -124,6 +124,7 @@
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/PeakIndexInMountainArray.cpp) | Slope-comparison binary search for finding peak in unimodal array |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/FindMinimumInRotatedSortedArray.cpp) | Inflection point binary search comparing mid to high boundary |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/SearchInRotatedSortedArray.cpp) | Modified binary search checking half-sorted ranges and interval bounds |
+| 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/KokoEatingBananas.cpp) | Binary search on answer space $[1, \max(\text{piles})]$ with ceiling division integer math |
 
 
 ---
