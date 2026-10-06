@@ -44,7 +44,7 @@
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 | **Stack** | 🟢 Completed  | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 | **Hash Table** | 🟡 In Progress | 4 | Fixed-size frequency arrays, String character counts, Hash map lookups |
-| **Binary Search** | 🟡 In Progress | 6 | Basic array search, Boundary search, Search space reduction |
+| **Binary Search** | 🟡 In Progress | 7 | Basic array search, Boundary search, Search space reduction |
 
 </details>
 
@@ -125,6 +125,7 @@
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/FindMinimumInRotatedSortedArray.cpp) | Inflection point binary search comparing mid to high boundary |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/SearchInRotatedSortedArray.cpp) | Modified binary search checking half-sorted ranges and interval bounds |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/KokoEatingBananas.cpp) | Binary search on answer space $[1, \max(\text{piles})]$ with ceiling division integer math |
+| 1482 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/MinimumNumberOfDaysToMakeMBouquets.cpp) | Binary search on answer space $[\min, \max]$ with greedy contiguous adjacency validation |
 
 
 ---
