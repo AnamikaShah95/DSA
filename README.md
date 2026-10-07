@@ -44,7 +44,7 @@
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 | **Stack** | 🟢 Completed  | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 | **Hash Table** | 🟡 In Progress | 4 | Fixed-size frequency arrays, String character counts, Hash map lookups |
-| **Binary Search** | 🟡 In Progress | 7 | Basic array search, Boundary search, Search space reduction |
+| **Binary Search** | 🟡 In Progress | 8 | Basic array search, Boundary search, Search space reduction |
 
 </details>
 
@@ -126,6 +126,7 @@
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/SearchInRotatedSortedArray.cpp) | Modified binary search checking half-sorted ranges and interval bounds |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/KokoEatingBananas.cpp) | Binary search on answer space $[1, \max(\text{piles})]$ with ceiling division integer math |
 | 1482 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/MinimumNumberOfDaysToMakeMBouquets.cpp) | Binary search on answer space $[\min, \max]$ with greedy contiguous adjacency validation |
+| 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/HIndexII.cpp) | Binary search on sorted citations array comparing citation value to suffix length |
 
 
 ---
