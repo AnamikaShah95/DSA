@@ -44,7 +44,7 @@
 | **Linked List** | 🟢 Completed  | 6 | Pointer manipulation, Fast & Slow Pointers, In-place reversal |
 | **Stack** | 🟢 Completed  | 8 | Stack operations using std::string, Parentheses matching, Monotonic Stack |
 | **Hash Table** | 🟡 In Progress | 4 | Fixed-size frequency arrays, String character counts, Hash map lookups |
-| **Binary Search** | 🟡 In Progress | 10 | Basic array search, Boundary search, Search space reduction |
+| **Binary Search** | 🟡 In Progress | 11 | Basic array search, Boundary search, Search space reduction |
 
 </details>
 
@@ -129,6 +129,7 @@
 | 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/HIndexII.cpp) | Binary search on sorted citations array comparing citation value to suffix length |
 | 2226 | [Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/MaximumCandiesAllocatedToKChildren.cpp) | Binary search on answer space $[1, \max]$ with greedy pile division and overflow protection |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Binary Search | 🟡 Medium | [C++](./Binary-Search/CapacityToShipPackagesWithinDDays.cpp) | Binary search on answer space $[\max W, \sum W]$ with greedy day-packing validation |
+| 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | Binary Search | 🔴 Hard | [C++](./Binary-Search/SplitArrayLargestSum.cpp) | Binary search on answer space $[\max, \sum]$ with greedy subarray sum partitioning validation |
 
 
 ---
